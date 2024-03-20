@@ -1,4 +1,4 @@
-package com.xandy.financaspessoais.service;
+package com.gomes.financaspessoais.service;
 
 public interface LancamentoService {
 

@@ -8,14 +8,14 @@
 		<version>2.2.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.xandy</groupId>
+	<groupId>com.gomes</groupId>
 	<artifactId>financaspessoais</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>financaspessoais</name>
 	<description>Projeto de gerenciamento de finanças pessoais</description>
 
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>11</java.version>
 	</properties>
 
 	<dependencies>

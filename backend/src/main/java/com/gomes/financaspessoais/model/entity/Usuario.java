@@ -1,4 +1,4 @@
-package com.xandy.financaspessoais.model.entity;
+package com.gomes.financaspessoais.model.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -9,13 +9,17 @@ import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Table( name = "usuario" , schema = "financas")
-@Builder
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class Usuario {
 
 	@Id

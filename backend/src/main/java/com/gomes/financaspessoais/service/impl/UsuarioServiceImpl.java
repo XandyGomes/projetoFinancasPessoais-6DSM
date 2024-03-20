@@ -1,4 +1,4 @@
-package com.xandy.financaspessoais.service.impl;
+package com.gomes.financaspessoais.service.impl;
 
 import java.util.Optional;
 
@@ -6,11 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.xandy.financaspessoais.exception.ErroAutenticacao;
-import com.xandy.financaspessoais.exception.RegraNegocioException;
-import com.xandy.financaspessoais.model.entity.Usuario;
-import com.xandy.financaspessoais.model.repository.UsuarioRepository;
-import com.xandy.financaspessoais.service.UsuarioService;
+import com.gomes.financaspessoais.exception.ErroAutenticacao;
+import com.gomes.financaspessoais.exception.RegraNegocioException;
+import com.gomes.financaspessoais.model.entity.Usuario;
+import com.gomes.financaspessoais.model.repository.UsuarioRepository;
+import com.gomes.financaspessoais.service.UsuarioService;
 
 @Service
 public class UsuarioServiceImpl implements UsuarioService {

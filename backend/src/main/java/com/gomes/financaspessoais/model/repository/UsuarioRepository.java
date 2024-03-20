@@ -1,10 +1,10 @@
-package com.xandy.financaspessoais.model.repository;
+package com.gomes.financaspessoais.model.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.xandy.financaspessoais.model.entity.Usuario;
+import com.gomes.financaspessoais.model.entity.Usuario;
 
 public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
 	

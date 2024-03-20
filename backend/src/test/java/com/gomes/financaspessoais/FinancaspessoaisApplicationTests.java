@@ -1,4 +1,4 @@
-package com.xandy.financaspessoais;
+package com.gomes.financaspessoais;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

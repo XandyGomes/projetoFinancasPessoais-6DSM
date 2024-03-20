@@ -1,4 +1,4 @@
-package com.xandy.financaspessoais.model.enums;
+package com.gomes.financaspessoais.model.enums;
 
 public enum StatusLancamento {
 

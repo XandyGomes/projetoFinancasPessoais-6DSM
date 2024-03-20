@@ -1,6 +1,6 @@
-package com.xandy.financaspessoais.service;
+package com.gomes.financaspessoais.service;
 
-import com.xandy.financaspessoais.model.entity.Usuario;
+import com.gomes.financaspessoais.model.entity.Usuario;
 
 public interface UsuarioService {
 

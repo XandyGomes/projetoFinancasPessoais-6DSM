@@ -1,4 +1,4 @@
-package com.xandy.financaspessoais.exception;
+package com.gomes.financaspessoais.exception;
 
 public class ErroAutenticacao extends RuntimeException {
 

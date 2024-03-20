@@ -1,4 +1,4 @@
-package com.xandy.financaspessoais.model.entity;
+package com.gomes.financaspessoais.model.entity;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -17,8 +17,8 @@ import javax.persistence.Table;
 
 import org.springframework.data.jpa.convert.threeten.Jsr310JpaConverters;
 
-import com.xandy.financaspessoais.model.enums.StatusLancamento;
-import com.xandy.financaspessoais.model.enums.TipoLancamento;
+import com.gomes.financaspessoais.model.enums.StatusLancamento;
+import com.gomes.financaspessoais.model.enums.TipoLancamento;
 
 import lombok.Builder;
 import lombok.Data;
