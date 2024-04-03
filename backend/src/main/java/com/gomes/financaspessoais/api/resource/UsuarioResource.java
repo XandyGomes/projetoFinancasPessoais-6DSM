@@ -14,16 +14,15 @@ import com.gomes.financaspessoais.exception.RegraNegocioException;
 import com.gomes.financaspessoais.model.entity.Usuario;
 import com.gomes.financaspessoais.service.UsuarioService;
 
+import lombok.RequiredArgsConstructor;
+
 @RestController
 @RequestMapping("/api/usuarios")
+@RequiredArgsConstructor
 public class UsuarioResource {
 	
-	private UsuarioService service;
-	
-	public UsuarioResource(UsuarioService service) {
-		this.service = service;
-	}
-	
+	private final UsuarioService service;
+		
 	@PostMapping
 	public ResponseEntity salvar( @RequestBody UsuarioDTO dto ) {
 		Usuario usuario = Usuario.builder()
