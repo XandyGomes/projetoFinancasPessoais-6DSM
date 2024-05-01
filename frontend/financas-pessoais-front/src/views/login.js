@@ -8,10 +8,10 @@ class Login extends React.Component {
     senha: "",
   };
 
-  entrar = () =>{
-    console.log('E-mail: ', this.state.email)
-    console.log('Senha: ', this.state.senha)
-  }
+  entrar = () => {
+    console.log("E-mail: ", this.state.email);
+    console.log("Senha: ", this.state.senha);
+  };
 
   render() {
     return (
@@ -31,7 +31,9 @@ class Login extends React.Component {
                           <input
                             type="email"
                             value={this.state.email}
-                            onChange={ e => this.setState({ email: e.target.value })}
+                            onChange={(e) =>
+                              this.setState({ email: e.target.value })
+                            }
                             className="form-control"
                             id="exampleInputEmail"
                             placeholder="Digite o E-mail"
@@ -44,13 +46,20 @@ class Login extends React.Component {
                           <input
                             type="password"
                             value={this.state.senha}
-                            onChange={ e => this.setState({ senha: e.target.value })}                            
+                            onChange={(e) =>
+                              this.setState({ senha: e.target.value })
+                            }
                             className="form-control"
                             id="exampleInputPassword"
                             placeholder="Digite a Senha"
                           />
                         </FormGroup>
-                        <button onClick={this.entrar} className="btn btn-success">Entrar</button>
+                        <button
+                          onClick={this.entrar}
+                          className="btn btn-success"
+                        >
+                          Entrar
+                        </button>
                         <button className="btn btn-danger">Cadastrar</button>
                       </fieldset>
                     </div>

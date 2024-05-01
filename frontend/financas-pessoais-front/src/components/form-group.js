@@ -9,4 +9,4 @@ function FormGroup(props) {
   );
 }
 
-export default FormGroup
+export default FormGroup;
