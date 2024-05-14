@@ -10,6 +10,10 @@ class CadastroUsuario extends React.Component {
     senhaRepeticao: "",
   };
 
+  cancelar = () => {
+    this.props.history.push("/login");
+  };
+
   cadastrar = () => {
     console.log(this.state);
   };
@@ -70,7 +74,11 @@ class CadastroUsuario extends React.Component {
                 >
                   Salvar
                 </button>
-                <button type="button" className="btn btn-danger">
+                <button
+                  onClick={this.cancelar}
+                  type="button"
+                  className="btn btn-danger"
+                >
                   Cancelar
                 </button>
               </div>
